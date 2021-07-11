@@ -22,9 +22,16 @@ export default function Home() {
             <a href="/">Contact</a>
           </menubar>
         </div>
-        <about>
-          <h2>AboutMe.jpg</h2>
-        </about>
+        <div>
+          <a href="/" className={styles.about}>
+            <about className={styles.about}>
+              <img src="/about.jpg"></img>
+              <boxtext className={styles.boxtext}>
+                AboutMe.jpg
+              </boxtext>              
+            </about>
+          </a>
+        </div>
         <folders className={styles.folders}>
           <folder className={styles.folder}>
             <a href="/">

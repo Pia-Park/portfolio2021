@@ -10,6 +10,24 @@
   color: gray;
 }
 
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 13rem;
+  height: 13rem;
+}
+
+
+.about img{
+  width: 10rem;
+  height: auto;
+  padding: 0.5rem;
+}
+
+
+
 
 .boxtext{
   color: white;
@@ -24,6 +42,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.boxtext:hover{
+  color: gray;
 }
 
 
