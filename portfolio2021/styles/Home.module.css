@@ -57,6 +57,19 @@
   height: auto;
 }
 
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 60vw;  
+  width: 8rem;
+  height: 11rem;
+}
+
+.contact img{
+  width: 6rem;
+  height: auto;
+}
 
 
 
@@ -117,6 +130,8 @@
 .skill img:hover{
   width: 8vw;
 }
+
+
 
 .skillsbox{
   padding: 1rem;

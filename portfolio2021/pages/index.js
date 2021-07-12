@@ -30,7 +30,7 @@ export default function Home() {
           <time className={styles.time}>{date}</time>
         </div>
         <div>
-          <a href="/" className={styles.about}>
+          <a href="/about" className={styles.about}>
             <about className={styles.about}>
               <img src="/about.jpg"></img>
               <boxtext className={styles.boxtext}>
@@ -71,6 +71,16 @@ export default function Home() {
             </a>
           </folder>
         </folders>
+        <div>
+          <a href="/" className={styles.contact}>
+            <about className={styles.contact}>
+              <img src="/contact.jpg"></img>
+              <boxtext className={styles.boxtext}>
+                Contact.jpg
+              </boxtext>              
+            </about>
+          </a>
+        </div>
         <skills>
           <skillsbox className={styles.skillsbox}>
             <skill className={styles.skill}>
