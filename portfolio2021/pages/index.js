@@ -22,7 +22,7 @@ export default function Home() {
             <img src="/icon.png"></img>
             <a href="/"><b>PARK INAE</b></a>
             <a href="/about">About</a>
-            <a href="/">Graphic Design</a>
+            <a href="/graphicdesign">Graphic Design</a>
             <a href="/">Web Design</a>
             <a href="/">Illustration</a>
             <a href="/">Contact</a>
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
         <folders className={styles.folders}>
           <folder className={styles.folder}>
-            <a href="/">
+            <a href="/graphicdesign">
               <div className={styles.boxes}>
                 <img src="/Graphic Design.png"></img>              
                 <boxtext className={styles.boxtext}>
