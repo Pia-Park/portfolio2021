@@ -2,7 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+var moment = require('moment')
+var date = moment().format('YYYY-MM-DD HH:mm:ss'); 
+
+
 export default function Home() {
+
   return (
     <div className={styles.main}>
       <Head>
@@ -12,7 +17,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <div>
+        <div className={styles.mainallbar}>
           <menubar className={styles.menubar}>
             <img src="/icon.png"></img>
             <a href="/"><b>PARK INAE</b></a>
@@ -22,6 +27,7 @@ export default function Home() {
             <a href="/">Illustration</a>
             <a href="/">Contact</a>
           </menubar>
+          <time className={styles.time}>{date}</time>
         </div>
         <div>
           <a href="/" className={styles.about}>
