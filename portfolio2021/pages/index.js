@@ -14,6 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <div>
           <menubar className={styles.menubar}>
+            <img src="/icon.png"></img>
             <a href="/"><b>PARK INAE</b></a>
             <a href="/">About</a>
             <a href="/">Graphic Design</a>
@@ -63,8 +64,47 @@ export default function Home() {
               </div>
             </a>
           </folder>
-
         </folders>
+        <skills>
+          <skillsbox className={styles.skillsbox}>
+            <skill className={styles.skill}>
+              <img src="/Illustrator-96.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/Photoshop-96.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/InDesign-96.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/Premiere-96.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/XD-96.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/JavaScript-Logo.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/html.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/css.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/react.png"></img>              
+            </skill>
+            <skill className={styles.skill}>
+              <img src="/sass.png"></img>              
+            </skill>
+
+          </skillsbox>
+          <skillsback>
+            <div className={styles.skillsback}>
+
+            </div>
+          </skillsback>
+        </skills>
 
       </main>      
     </div>
