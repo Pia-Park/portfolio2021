@@ -43,23 +43,22 @@ export default function About() {
                 Graphic Design
             </div>
             <div className={styles.contentx}><a href="/">✕</a></div>
-            <div className={styles.contentdetail}>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
-                <a data-fancybox="images-d" data-caption="Beeeen company Brand advertisement" href="/icon.png"><img src="/icon.png" className={styles.detailimg}/></a>
+            <div className={styles.contentall}>
+                {/* <div className={styles.contenttitle}>Text</div> */}
+                <div className={styles.contentdetail}>
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh2.jpg"><img src="/fb_mbh2.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh3.jpg"><img src="/fb_mbh3.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh4.jpg"><img src="/fb_mbh4.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh5.jpg"><img src="/fb_mbh5.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh6.jpg"><img src="/fb_mbh2.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-b" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead1.jpg"><img src="/linead1.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-b" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead2.jpg"><img src="/linead2.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-b" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead3.jpg"><img src="/linead3.jpg" className={styles.detailimg}/></a>
 
+
+
+
+                </div>
 
             </div>
         </div>
