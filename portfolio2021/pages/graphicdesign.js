@@ -8,7 +8,7 @@ var moment = require('moment')
 var date = moment().format('YYYY-MM-DD HH:mm:ss'); 
 
 
-export default function About() {
+export default function Graphicdesign() {
 
   return (
     <div className={styles.main}>
@@ -51,12 +51,25 @@ export default function About() {
                     <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh4.jpg"><img src="/fb_mbh4.jpg" className={styles.detailimg}/></a>
                     <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh5.jpg"><img src="/fb_mbh5.jpg" className={styles.detailimg}/></a>
                     <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh6.jpg"><img src="/fb_mbh2.jpg" className={styles.detailimg}/></a>
-                    <a data-fancybox="images-b" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead1.jpg"><img src="/linead1.jpg" className={styles.detailimg}/></a>
-                    <a data-fancybox="images-b" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead2.jpg"><img src="/linead2.jpg" className={styles.detailimg}/></a>
-                    <a data-fancybox="images-b" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead3.jpg"><img src="/linead3.jpg" className={styles.detailimg}/></a>
-
-
-
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead1.jpg"><img src="/linead1.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead2.jpg"><img src="/linead2.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead3.jpg"><img src="/linead3.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Photography directing and Design, 2018" href="/haba1.jpg"><img src="/haba1.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Photography directing and Design, 2018" href="/haba2.jpg"><img src="/haba2.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Photography directing and Design, 2018" href="/haba3.jpg"><img src="/haba3.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Photography directing and Design, 2018" href="/haba4.jpg"><img src="/haba4.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Photography directing and Design, 2018" href="/haba5.jpg"><img src="/haba5.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Photography directing and Design, 2018" href="/haba6.jpg"><img src="/haba6.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Photography directing and Design, 2018" href="/haba7.jpg"><img src="/haba7.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Photography directing and Design, 2019" href="/fancl1.jpg"><img src="/fancl1.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Photography directing and Design, 2019" href="/fancl2.jpg"><img src="/fancl2.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Photography directing and Design, 2019" href="/fancl3.jpg"><img src="/fancl3.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Photography directing and Design, 2019" href="/fancl4.jpg"><img src="/fancl4.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Photography directing and Design, 2019" href="/fancl5.jpg"><img src="/fancl5.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Photography directing and Design, 2019" href="/fancl6.jpg"><img src="/fancl6.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-j" data-caption="JustBB, Mask Pack Package Series, Design and Illustration, 2014" href="/justbbmask1.jpg"><img src="/justbbmask1.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-j" data-caption="JustBB, Mask Pack Package Series, Design and Illustration, 2014" href="/justbbmask2.jpg"><img src="/justbbmask2.jpg" className={styles.detailimg}/></a>
+                    <a data-fancybox="images-j" data-caption="JustBB, Mask Pack Package Series, Design and Illustration, 2014" href="/justbbmask3.jpg"><img src="/justbbmask3.jpg" className={styles.detailimg}/></a>
 
                 </div>
 

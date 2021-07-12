@@ -23,9 +23,9 @@ export default function Home() {
             <a href="/"><b>PARK INAE</b></a>
             <a href="/about">About</a>
             <a href="/graphicdesign">Graphic Design</a>
-            <a href="/">Web Design</a>
-            <a href="/">Illustration</a>
-            <a href="/">Contact</a>
+            <a href="/webdesign">Web Design</a>
+            <a href="/illustration">Illustration</a>
+            <a href="/contact">Contact</a>
           </menubar>
           <time className={styles.time}>{date}</time>
         </div>
@@ -51,7 +51,7 @@ export default function Home() {
             </a>
           </folder>
           <folder className={styles.folder}>
-            <a href="/">
+            <a href="/webdesign">
               <div className={styles.boxes}>
                 <img src="/Web Design.png"></img>              
                 <boxtext className={styles.boxtext}>
@@ -61,7 +61,7 @@ export default function Home() {
             </a>
           </folder>
           <folder className={styles.folder}>
-            <a href="/">
+            <a href="/illustration">
               <div className={styles.boxes}>
                 <img src="/illustration.png"></img>              
                 <boxtext className={styles.boxtext}>
@@ -72,7 +72,7 @@ export default function Home() {
           </folder>
         </folders>
         <div>
-          <a href="/" className={styles.contact}>
+          <a href="/contact" className={styles.contact}>
             <about className={styles.contact}>
               <img src="/contact.jpg"></img>
               <boxtext className={styles.boxtext}>

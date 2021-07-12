@@ -1,20 +1,28 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/About.module.css'
+import styles from '../styles/Webdesign.module.css'
+
+
 
 var moment = require('moment')
 var date = moment().format('YYYY-MM-DD HH:mm:ss'); 
 
 
-export default function About() {
+export default function Webdesign() {
 
   return (
     <div className={styles.main}>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+        />
+
       <Head>
         <title>PARK INAE PORTFOLIO 2021</title>
         <meta name="description" content="Web - Grapic Designer Portfolio " />
         <link rel="icon" href="/icon.png" />
       </Head>
+
 
       <main className={styles.main}>
         <div className={styles.mainallbar}>
@@ -25,37 +33,30 @@ export default function About() {
             <a href="/graphicdesign">Graphic Design</a>
             <a href="/webdesign">Web Design</a>
             <a href="/illustration">Illustration</a>
-            <a href="/contact">Contact</a>
+            <a href="/">Contact</a>
           </menubar>
           <time className={styles.time}>{date}</time>
         </div>
 
         <div className={styles.contentbox}>
             <div className={styles.contentboxhead}>
-                AboutMe.jpg
+                Web Design
             </div>
             <div className={styles.contentx}><a href="/">✕</a></div>
-            <div className={styles.contentdetail}>
+            <div className={styles.contentall}>
+                {/* <div className={styles.contenttitle}>Text</div> */}
+                <div className={styles.contentdetail}>
+                    <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh2.jpg"><img src="/fb_mbh2.jpg" className={styles.detailimg}/></a>
 
-                <img src="/about.jpg"></img>
-                <contenttext className={styles.contenttext}>
-                    <b>PARK INAE</b><br></br>
-                    Graphic / Web Designer / Illustrator<br></br>
-                    Experienced graphic designer and illustrator, with skills in print and web design, branding, line drawing, oil painting, package design and photography.  <br></br>
-                    <br></br><b>Skills</b><br></br>
-                    Adobe Photoshop / Adobe Illustrator<br></br>
-                    Adobe Indesign / Adobe Premiere<br></br>
-                    Adobe After effect / Adobe XD<br></br>
-                    HTML / SASS / CSS / Javascript<br></br>
-                    NodeJS / NextJS / React<br></br>
-                    Figma / Microsoft office<br></br>
-              
-                </contenttext>
+                </div>
+
             </div>
         </div>
         
-
-      </main>      
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+      </main>    
+      
     </div>
+    
   )
 }
