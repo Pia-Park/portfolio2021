@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/About.module.css'
+import styles from '../styles/Contact.module.css'
 import emailjs from 'emailjs-com'
 import{ init } from 'emailjs-com';
 init("user_zbhb7nXYLm2s7HiAUFdOX");
@@ -43,56 +43,31 @@ export default function About() {
             <div className={styles.contentdetail}>
 
                 <contenttext className={styles.contenttext}>
-                    <section id="contact">
-                        <div class="title">
-                            <div class="title-circle"></div>
-                            <h4 class="title-text">Contact me</h4>
-                        </div>
-                        <div class="contact">
-                            <div class="contact-input">
-                                
-                                <div class="contact-detail">
-                                    <div class="label">
-                                        <label for="name">Name</label>
-                                    </div>
-                                    <div class="label-input">
-                                        <input type="text" name="name" id="name" placeholder="Your name" required />
-                                    </div>
-                                </div>
-                                <div class="contact-detail">
-                                    <div class="label">
-                                        <label for="email">E-mail</label>
-                                    </div>
-                                    <div class="label-input">
-                                        <input type="text" name="email" id="email" placeholder="Your E-mail" required />
-                                    </div>
-                                </div>
-                                <div class="contact-detail">
-                                    <div class="label">
-                                        <label for="message">Message</label>
-                                    </div>
-                                    <div class="label-input">
-                                        <textarea cols="50" name="message" rows="10" placeholder="Your message"></textarea>
-                                    </div>                    
-                                </div>
-                                <div class="submit">
-                                    <label></label>
-                                </div>
-                                <div class="submit-btn">
-                                    <input type="submit" name="submit" value="SUBMIT" />
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    <form
+                        action="https://formspree.io/f/mrgrapgq"
+                        method="POST"
+                    >
+                        <label>
+                            Your email:
+                            <input type="email" name="_replyto" />
+                        </label>
+                    
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                        </label>
+                        <button type="submit">Send</button>
+                    </form>
                     
               
                 </contenttext>
-                <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+                {/* <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
                 <script type="text/javascript">
-                    (function(){
-                        emailjs.init("user_zbhb7nXYLm2s7HiAUFdOX")
+                    (function() {
+                        emailjs.init('user_zbhb7nXYLm2s7HiAUFdOX')
                     })();
-                </script>
+                </script> */}
+                
           
                 </div>
         </div>
