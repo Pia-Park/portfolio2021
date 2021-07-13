@@ -31,9 +31,9 @@ export default function Graphicdesign() {
             <a href="/"><b>PARK INAE</b></a>
             <a href="/about">About</a>
             <a href="/graphicdesign">Graphic Design</a>
-            <a href="/">Web Design</a>
-            <a href="/">Illustration</a>
-            <a href="/">Contact</a>
+            <a href="/webdesign">Web Design</a>
+            <a href="/illustration">Illustration</a>
+            <a href="/contact">Contact</a>
           </menubar>
           <time className={styles.time}>{date}</time>
         </div>

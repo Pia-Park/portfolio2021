@@ -57,36 +57,36 @@ export default function Contact() {
             <div className={styles.contentdetail}>
 
                 <form className={styles.contenttext} onSubmit={sendEmail}>
-                    <div className="contact">
+                    <div className={styles.contact}>
                         
-                        <div className="contact-detail">
-                            <div className="label">
+                        <div className={styles.contactdetail}>
+                            <div className={styles.label}>
                                 <label for="name">Name</label>
                             </div>
-                            <div className="label-input">
+                            <div className={styles.labelinput}>
                                 <input type="text" name="name" id="name" placeholder="Your name" required />
                             </div>
                         </div>
-                        <div className="contact-detail">
-                            <div className="label">
+                        <div className={styles.contactdetail}>
+                            <div className={styles.label}>
                                 <label for="email">E-mail</label>
                             </div>
-                            <div className="label-input">
+                            <div className={styles.labelinput}>
                                 <input type="text" name="email" id="email" placeholder="Your E-mail" required />
                             </div>
                         </div>
-                        <div className="contact-detail">
-                            <div className="label">
+                        <div className={styles.contactdetail}>
+                            <div className={styles.label}>
                                 <label for="message">Message</label>
                             </div>
-                            <div className="label-input">
+                            <div className={styles.labelinput}>
                                 <textarea cols="50" name="message" rows="10" placeholder="Your message"></textarea>
                             </div>                    
                         </div>
-                        <div className="submit">
+                        <div className={styles.submit}>
                             <label></label>
                         </div>
-                        <div className="submit-btn">
+                        <div className={styles.submitbtn}>
                             <input type="submit" name="submit" value="SUBMIT" />
                         </div>
                     </div>

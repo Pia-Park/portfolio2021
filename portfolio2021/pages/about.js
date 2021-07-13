@@ -35,22 +35,24 @@ export default function About() {
                 AboutMe.jpg
             </div>
             <div className={styles.contentx}><a href="/">✕</a></div>
-            <div className={styles.contentdetail}>
+            <div className={styles.contentdetailall}>
+              <div className={styles.contentdetail}>
+                  <img src="/about.jpg"></img>
+                  <contenttext className={styles.contenttext}>
+                      <b>PARK INAE</b><br></br>
+                      Graphic / Web Designer / Illustrator<br></br>
+                      Experienced graphic designer and illustrator, with skills in print and web design, branding, line drawing, oil painting, package design and photography.  <br></br>
+                      <br></br><b>Skills</b><br></br>
+                      Adobe Photoshop / Adobe Illustrator<br></br>
+                      Adobe Indesign / Adobe Premiere<br></br>
+                      Adobe After effect / Adobe XD<br></br>
+                      HTML / SASS / CSS / Javascript<br></br>
+                      NodeJS / NextJS / React<br></br>
+                      Figma / Microsoft office<br></br>
+                
+                  </contenttext>
+              </div>
 
-                <img src="/about.jpg"></img>
-                <contenttext className={styles.contenttext}>
-                    <b>PARK INAE</b><br></br>
-                    Graphic / Web Designer / Illustrator<br></br>
-                    Experienced graphic designer and illustrator, with skills in print and web design, branding, line drawing, oil painting, package design and photography.  <br></br>
-                    <br></br><b>Skills</b><br></br>
-                    Adobe Photoshop / Adobe Illustrator<br></br>
-                    Adobe Indesign / Adobe Premiere<br></br>
-                    Adobe After effect / Adobe XD<br></br>
-                    HTML / SASS / CSS / Javascript<br></br>
-                    NodeJS / NextJS / React<br></br>
-                    Figma / Microsoft office<br></br>
-              
-                </contenttext>
             </div>
         </div>
         

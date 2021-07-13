@@ -72,14 +72,17 @@ export default function Home() {
           </folder>
         </folders>
         <div>
-          <a href="/contact" className={styles.contact}>
-            <about className={styles.contact}>
-              <img src="/contact.jpg"></img>
-              <boxtext className={styles.boxtext}>
-                Contact.jpg
-              </boxtext>              
-            </about>
-          </a>
+          <div>
+            <a href="/contact" className={styles.contact}>
+              <about className={styles.contact}>
+                <img src="/contact.jpg"></img>
+                <boxtext className={styles.boxtext}>
+                  Contact.jpg
+                </boxtext>              
+              </about>
+            </a>
+
+          </div>
         </div>
         <skills>
           <skillsbox className={styles.skillsbox}>

@@ -106,6 +106,33 @@
     padding: 1rem;
 }
 
+.contactdetail input{
+    width: 30vw;
+    height: auto;
+    line-height: 2rem;
+    padding: 0.3rem;
+}
+
+.contactdetail textarea{
+    width: 30vw;
+    padding: 0.3rem;
+    font-family: sans-serif;
+}
+
+.submitbtn input[type=submit]{
+    cursor: pointer;
+    width: 30vw;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+    background-color: gray;
+    color: black;
+    border-radius: 0.2rem;
+}
+
+.submitbtn input[type=submit]:hover{
+    color: white;
+}
 
 
 

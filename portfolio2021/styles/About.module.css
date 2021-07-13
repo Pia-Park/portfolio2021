@@ -51,6 +51,7 @@
     border-radius: 1rem;
     border: 0.5px solid rgb(68, 68, 68);
     margin: 2rem auto;
+
 }
 
 .contentboxhead{
@@ -81,14 +82,21 @@
     color: black;
 }
 
+.contentdetailall{
+    width: 85vw;
+    height: 79vh;
+    overflow: scroll;
+}
+
 .contentdetail{
     display: flex;
     flex-direction: row;
+
 }
 
 .contentdetail img{
     width: 30vw;
-    height: auto;
+    height: 100%;
     padding: 1rem;
 }
 
