@@ -2,8 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Contact.module.css'
 import emailjs from 'emailjs-com'
-import{ init } from 'emailjs-com';
-init("user_zbhb7nXYLm2s7HiAUFdOX");
+
 
 
 
@@ -11,7 +10,20 @@ var moment = require('moment')
 var date = moment().format('YYYY-MM-DD HH:mm:ss'); 
 
 
-export default function About() {
+
+export default function Contact() {
+    
+    function sendEmail(e){
+        e.preventDefault();
+    
+        emailjs.sendForm('service_ghscycf','template_j33huix', e.target,'user_zbhb7nXYLm2s7HiAUFdOX')
+            .then((result)=>{
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
 
   return (
     <div className={styles.main}>
@@ -42,31 +54,43 @@ export default function About() {
             <div className={styles.contentx}><a href="/">✕</a></div>
             <div className={styles.contentdetail}>
 
-                <contenttext className={styles.contenttext}>
-                    <form
-                        action="https://formspree.io/f/mrgrapgq"
-                        method="POST"
-                    >
-                        <label>
-                            Your email:
-                            <input type="email" name="_replyto" />
-                        </label>
-                    
-                        <label>
-                            Your message:
-                            <textarea name="message"></textarea>
-                        </label>
-                        <button type="submit">Send</button>
-                    </form>
-                    
-              
-                </contenttext>
-                {/* <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-                <script type="text/javascript">
-                    (function() {
-                        emailjs.init('user_zbhb7nXYLm2s7HiAUFdOX')
-                    })();
-                </script> */}
+                <form className={styles.contenttext} onSubmit={sendEmail}>
+                    <div className="contact">
+                        
+                        <div className="contact-detail">
+                            <div className="label">
+                                <label for="name">Name</label>
+                            </div>
+                            <div className="label-input">
+                                <input type="text" name="name" id="name" placeholder="Your name" required />
+                            </div>
+                        </div>
+                        <div className="contact-detail">
+                            <div className="label">
+                                <label for="email">E-mail</label>
+                            </div>
+                            <div className="label-input">
+                                <input type="text" name="email" id="email" placeholder="Your E-mail" required />
+                            </div>
+                        </div>
+                        <div className="contact-detail">
+                            <div className="label">
+                                <label for="message">Message</label>
+                            </div>
+                            <div className="label-input">
+                                <textarea cols="50" name="message" rows="10" placeholder="Your message"></textarea>
+                            </div>                    
+                        </div>
+                        <div className="submit">
+                            <label></label>
+                        </div>
+                        <div className="submit-btn">
+                            <input type="submit" name="submit" value="SUBMIT" />
+                        </div>
+                    </div>
+                                  
+                </form>
+                
                 
           
                 </div>
