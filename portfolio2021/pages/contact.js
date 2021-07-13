@@ -18,8 +18,10 @@ export default function Contact() {
     
         emailjs.sendForm(process.env.NEXT_PUBLIC_SERVICE_KEY, process.env.NEXT_PUBLIC_TEMPLATE_KEY, e.target, process.env.NEXT_PUBLIC_USER_ID)
             .then((result)=>{
+                alert('Email sent successfully!\nHave a nice day:)')
                 console.log(result.text);
             }, (error) => {
+                alert('Try again please;)')
                 console.log(error.text);
             });
     }
