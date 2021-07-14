@@ -76,7 +76,20 @@ export default function Graphicdesign() {
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-j" data-caption="JustBB, Mask Pack Package Series, Design and Illustration, 2014" href="/justbbmask2.jpg"><img src="/justbbmask2.jpg" className={styles.detailimg}/></a>
                         <a className={styles.detail} data-fancybox="images-j" data-caption="JustBB, Mask Pack Package Series, Design and Illustration, 2014" href="/justbbmask3.jpg"><img src="/justbbmask3.jpg" className={styles.detailimg}/></a>
+                        <a className={styles.detail} data-fancybox="images-j" data-caption="JustBB, White Series, Package Design and Illustration, 2014" href="/justbb_white1.png"><img src="/justbb_white1.png" className={styles.detailimg}/></a>
+                        <a className={styles.detail} data-fancybox="images-j" data-caption="JustBB, White Series, Package Design and Illustration, 2014" href="/justbb_white2.png"><img src="/justbb_white2.png" className={styles.detailimg}/></a>
                         <a className={styles.detail} data-fancybox="images-j" data-caption="JustBB, Mask Pack Package Series, Design and Illustration, 2014" href="/justbbmask1.jpg"><img src="/justbbmask1.jpg" className={styles.detailimg}/>JustBB.zip</a>
+                    </div>
+                    <div className={styles.detailbox}>
+                        <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta1.jpg"><img src="/meta1.jpg" className={styles.detailimg}/></a>
+                        <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta2.jpg"><img src="/meta2.jpg" className={styles.detailimg}/></a>
+                        <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta3.jpg"><img src="/meta3.jpg" className={styles.detailimg}/>Fujifilm.zip</a>
+                    </div>
+                    <div className={styles.detailbox}>
+                        <a className={styles.detail} data-fancybox="images-c" data-caption="Jamcity, Cookie Jam Blast advertisement, Design, 2019" href="/cjblast1.jpg"><img src="/cjblast1.jpg" className={styles.detailimg}/></a>
+                        <a className={styles.detail} data-fancybox="images-c" data-caption="Jamcity, Cookie Jam Blast advertisement, Design, 2019" href="/cjblast2.jpg"><img src="/cjblast2.jpg" className={styles.detailimg}/>Jam City.zip</a>
+
+
                     </div>
 
                 </div>
