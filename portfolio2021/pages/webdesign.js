@@ -44,10 +44,43 @@ export default function Webdesign() {
             </div>
             <div className={styles.contentx}><a href="/">✕</a></div>
             <div className={styles.contentall}>
-                {/* <div className={styles.contenttitle}>Text</div> */}
                 <div className={styles.contentdetail}>
-                    <a data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh2.jpg"><img src="/fb_mbh2.jpg" className={styles.detailimg}/></a>
-
+                <div className={styles.detailbox}>
+                    <a className={styles.detail} data-fancybox="video" data-caption="JustBB, Web Magazine Design, Photoshop/Illustrator, 2014" href="/justbb.webm">
+                      <img src="/webjustbb.png" className={styles.detailimg}/>
+                      JustBB.mov
+                    </a>
+                  </div>
+                  <div className={styles.detailbox}>
+                    <a className={styles.detail} data-fancybox="video" data-caption="Suntory, locomoa Product Landing Page Design and Illustration, Photoshop/Illustrator, 2019" href="/suntory_lcmr_a.webm">
+                      <img src="/lcmr_a.png" className={styles.detailimg}/>
+                      Suntory_lcma.mov
+                    </a>
+                  </div>
+                  <div className={styles.detailbox}>
+                    <a className={styles.detail} data-fancybox="video" data-caption="Suntory, Grand Maca Product Landing Page Design, Photoshop/Illustrator, 2019" href="/suntory_maca.webm">
+                      <img src="/maca.png" className={styles.detailimg}/>
+                      Suntory_maca.mov
+                    </a>
+                  </div>
+                  <div className={styles.detailbox}>
+                    <a className={styles.detail} data-fancybox="video" data-caption="Suntory, Glucosamine Product Landing Page Design, Photoshop/Illustrator, 2019" href="/suntory_glc.webm">
+                      <img src="/glc.png" className={styles.detailimg}/>
+                      Suntory_glc.mov
+                    </a>
+                  </div>
+                  <div className={styles.detailbox}>
+                    <a className={styles.detail} data-fancybox="video" data-caption="Project, Shopping mall Web site Design and Logo Design, html/javascript/sass, 2021" href="/goodgirl.webm">
+                      <img src="/goodgirl.jpg" className={styles.detailimg}/>
+                      Good Girl Project.mov
+                    </a>
+                  </div>
+                  <div className={styles.detailbox}>
+                    <a className={styles.detail} data-fancybox="video" data-caption="Project, Web site Design and Logo Design, html/javascript/sass, 2020" href="/11am.webm">
+                      <img src="/11am.png" className={styles.detailimg}/>
+                      11am Project.mov
+                    </a>
+                  </div>
                 </div>
 
             </div>
