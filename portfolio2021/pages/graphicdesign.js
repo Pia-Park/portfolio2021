@@ -47,7 +47,7 @@ export default function Graphicdesign() {
                 {/* <div className={styles.contenttitle}>Text</div> */}
                 <div className={styles.contentdetail}>
                     <div className={styles.detailbox}>
-                        <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh2.jpg"><img src="/fb_mbh2.png" className={styles.detailimg}/></a>
+                        <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh2.jpg"><img src="/fb_mbh2a.png" className={styles.detailimg}/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh3.jpg"><img src="/fb_mbh3.png" className={styles.detailimg}/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh4.jpg"><img src="/fb_mbh4.png" className={styles.detailimg}/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh5.jpg"><img src="/fb_mbh5.png" className={styles.detailimg}/></a>

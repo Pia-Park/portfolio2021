@@ -37,7 +37,10 @@ export default function About() {
             <div className={styles.contentx}><a href="/">✕</a></div>
             <div className={styles.contentdetailall}>
               <div className={styles.contentdetail}>
-                  <img src="/about.jpg"></img>
+                  <div className={styles.imgbox}>
+                    <img src="/about.jpg"></img>
+                    <div className={styles.text}>Self Portrait, Oil paiting, 2007</div>
+                  </div>
                   <contenttext className={styles.contenttext}>
                       <b>PARK INAE</b><br></br>
                       Graphic / Web Designer / Illustrator<br></br>
